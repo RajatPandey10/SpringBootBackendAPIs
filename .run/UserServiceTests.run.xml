@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UserServiceTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="SpringBoot-Learning" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.SpringBootLearning.SpringBoot.Learning.Service.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.SpringBootLearning.SpringBoot.Learning.Service" />
+    <option name="MAIN_CLASS_NAME" value="com.SpringBootLearning.SpringBoot.Learning.Service.UserServiceTests" />
+    <option name="METHOD_NAME" value="test(int,int,int)" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
