@@ -4,6 +4,8 @@ import com.SpringBootLearning.SpringBoot.Learning.Entity.JournalEntry;
 import com.SpringBootLearning.SpringBoot.Learning.Entity.User;
 import com.SpringBootLearning.SpringBoot.Learning.Repository.JournalEntryRepository;
 import org.bson.types.ObjectId;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,6 +22,7 @@ public class JournalEntryServices {
 
     @Autowired
     private UserServices userServices;
+
 
     @Transactional
     public void saveNewEntry(JournalEntry journalEntry, String userName){
