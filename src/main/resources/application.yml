@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: SpringBoot-Learning
+
+  data:
+    mongodb:
+      uri: your mongodb url
+      # port: 27017
+      database: journaldb
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com  # host for gmail
+    port: 587
+    username: writeyourownpersonalemail@gmail.com
+    password: your app password from your email
+    properties:
+      mail:
+        smtp:  # simple mail transfer protocol
+          auth: true    # authentication enable true
+          starttls:   # for encryption enable true
+            enable: true
+
